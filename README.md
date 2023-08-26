@@ -3,13 +3,13 @@ Logical Implementation of ALU that uses the basic mathematical operations additi
 
 A.	MIPS Normal Procedure
 The process for MIPS Normal Procedure is relatively simple. Given the $a2 argument, it can be determined what mathematical operation will be done, and branch accordingly.
-1)	 For Operand ‘+’/n
+1)	 For Operand ‘+’: 
 Add the two mathematical operands, using the “add” instruction to determine the sum.
-2)	For Operand ‘-’
+2)	For Operand ‘-’: 
 Subtract the second mathematical operand from the first, using the “sub” instruction to determine the difference.
-3)	For Operand ‘*’
+3)	For Operand ‘*’: 
 Multiply the two mathematical operands, using the “mul” instruction to determine the product.
-4)	For Operand ‘/’
+4)	For Operand ‘/’: 
 Divide the first mathematical operand using the second, using the “div” method to determine the quotient and remainder.
 
 B.	MIPS Logical Procedure
